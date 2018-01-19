@@ -9,7 +9,8 @@ body {
 }
 
 .logo {
-	width: 200px;
+	font-size: 2.3em;
+	width: 325px;
 	animation: rotation 2s infinite linear;
 }
 
