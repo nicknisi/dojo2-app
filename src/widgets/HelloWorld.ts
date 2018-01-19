@@ -11,6 +11,7 @@ import * as css from './styles/HelloWorld.m.css';
  * 	- Creating widgets, https://dojo.io/tutorials/003_creating_widgets/
  */
 export class HelloWorld extends WidgetBase {
+	readonly logo = '';
 	/**
 	 * Override WidgetBase#render to produce a virtual DOM tree.
 	 * @returns {HNode} Each time render() executes, it should build the entire virtual DOM tree.
@@ -18,7 +19,7 @@ export class HelloWorld extends WidgetBase {
 	protected render() {
 		// Use WidgetBase#classes() to assign CSS classnames from the theme to the virtual DOM nodes.
 		return v('div', { classes: css.root }, [
-			v('img', { src: './img/logo.svg', classes: css.logo }),
+			v('h2', { classes: css.logo }, [ 'DOJO 2' ]),
 			v('div', { classes: css.label }, [ 'Hello, Dojo 2 World!' ])
 		]);
 	}
