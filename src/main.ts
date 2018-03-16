@@ -7,7 +7,7 @@ class App extends WidgetBase {
 	protected render() {
 		return v('div.wrapper', [
 			w(Hello, { name: 'CodeSandbox' }),
-			v('h2', [ `Start editing to see some magic happen \u2728` ])
+			v('h2', [ 'Start editing to see some magic happen \u2728' ])
 		]);
 	}
 }
