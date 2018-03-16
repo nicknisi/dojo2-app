@@ -1,4 +1,5 @@
 /* Put your styles and imports here */
-body {
+.wrapper {
+	text-align: center;
 	font-family: sans-serif;
 }
