@@ -1,18 +1,17 @@
 {
   "name": "dojo2-app",
   "version": "1.0.0",
-  "main": "src/main.ts",
   "dependencies": {
-    "@dojo/core": "latest",
-    "@dojo/has": "latest",
-    "@dojo/routing": "latest",
-    "@dojo/shim": "latest",
-    "@dojo/widget-core": "latest",
-    "@dojo/widgets": "latest",
-    "@dojo/i18n": "latest"
+    "@dojo/core": "~0.4.0",
+    "@dojo/has": "~0.1.2",
+    "@dojo/shim": "~0.2.6",
+    "@dojo/i18n": "~0.5.1",
+    "@dojo/widget-core": "~0.9.6",
+    "@dojo/routing": "~0.5.0",
+    "@dojo/widgets": "~0.6.1",
+    "tslib": "~1.8.1"
   },
   "devDependencies": {
-    "@dojo/interfaces": "latest",
-    "@dojo/loader": "latest"
+    "typescript": "~2.6.1"
   }
 }
